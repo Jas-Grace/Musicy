@@ -1,0 +1,2 @@
+# Musicy
+Static music website
