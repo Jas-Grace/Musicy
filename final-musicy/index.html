@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="ZxTtisOnO4vqpzB9DKrEPjjypNmw3AgHUyEM6IgnVac" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Musicy</title>
+</head>
+<body>
+    <nav>
+        <!-- <ul>
+            <li class="brand"><img src="logo.png" alt="">Musicy</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul> -->
+        <div>
+            <img class="brand" src="logo.png" alt="Musicy">Musicy
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="songlist" id="songlist">
+            <h1>My Favourite Hits</h1>
+            <div>
+                <div class="songItem">
+                    <span>These are some of the most popular songs in our collection</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="mySlider" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="fas fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Courage to Change - Sia</span>
+        </div>
+    </div>
+
+    <div id="song_inputer">
+        <div>
+            <label for="avatar">Choose a song to upload to the website:</label>
+            <input type="file"
+            id="song_usr" name="avatar"
+            accept="audio/mp3">
+        </div>
+        <button id="submit_song">Submit</button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2f4c66330e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+<!-- Made by Aum Singh -->
+</html>

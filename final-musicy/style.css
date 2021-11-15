@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Da+2:regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round:regular);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Noto Sans';
+    background-image: url('bg');
+    background-repeat: no-repeat;
+    background-size: 100vw 150vh;
+    height: 100vh ;
+    width: 95vw ;
+}
+
+/* Navbar */
+nav{
+    font-family: 'Ubuntu';
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: 3.5vw;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+nav div{
+    display: flex;
+    font-size: 5vh;
+    height: 10vh;
+    align-items: center;
+    list-style-type: none;
+    color:rgb(39, 195, 216);
+    margin-left: 42%;
+}
+.brand{
+    width: 45px;
+    height: 45px;
+    padding: 0 6px;
+}
+.brand:hover{
+    color:rgb(39, 195, 216);
+    cursor: auto;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* Body */
+.container{
+    min-height: 72vh;
+    max-height: 100vh;
+    font-size: 1rem;
+    /* background-color: white; */
+    margin: 0px 8vw;
+    padding: 10px;
+    display: flex;
+    color: rgb(161, 106, 34);
+}
+
+.songItem{
+    height: 5vh;
+    display: flex;
+    width: 80vw;
+    background-color:rgba(25, 160, 214, 0.5);
+    border-radius: 8px;
+    padding: 1.9vh;
+    margin: 2vh 0;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 14px;
+}
+
+.songItem img{
+    width:35px;
+    height:35px;
+}
+
+.songItem i:hover{
+    color: rgb(211, 148, 65);
+    cursor: pointer;
+}
+
+.songItem span{
+    margin:5px;
+}
+
+/* Bottom Div */
+.bottom{
+    position: sticky;
+    height: 18vh;
+    margin-left: 12%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgba(14, 99, 116, 0.7);
+    border-radius: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 162, 196);
+    flex-direction: column;
+}
+
+#mySlider{
+    background: rgb(148, 112, 34);
+    /* border: solid 1px #82CFD0; */
+    border-radius: 8px;
+    height: 7px;
+    width: 60vw;
+    outline: none;
+    -webkit-appearance: none;
+    margin-left: 0px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #1d1c75 0%, #ce2e5e 1%, #fff 99%, rgb(202, 103, 103) 100%);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 7px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+.icons i{
+    margin: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: rgb(118, 234, 238);
+}
+.icons i:hover{
+    color: rgb(51, 159, 192);
+}
+
+#gif{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+#song_inputer{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 5vw;
+}
+
+#song_usr button{
+    background-color:rgb(51, 83, 172) ;
+}
