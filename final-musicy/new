@@ -1,0 +1,10 @@
+<div class="songItem" >
+    <img src="songs[i].coverPath" alt="">
+    <span class="songName">Courage to Change - Sia</span>
+    <span class="songlistplay">
+        <span>04:52</span>
+        <i class="fas fa-play songItemPlay" id="0"></i>
+    </span>
+</div>
+
+<div class="songItem" ><img src="${songs[i].coverPath}" alt=""><span class="songName">Courage to Change - Sia</span><span class="songlistplay"><span>04:52</span><i class="fas fa-play songItemPlay" id="0"></i></span></div>
